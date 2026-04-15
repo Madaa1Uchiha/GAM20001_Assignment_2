@@ -38,6 +38,7 @@ public class PlayerCam : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f) return;
         // analog input - mouse delta returns Vector2
         Vector2 lookInput = lookAction.ReadValue<Vector2>();
 

@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
+        grounded = Physics.CheckSphere(transform.position - new Vector3(0, playerHeight * 0.5f, 0), 0.3f, whatIsGround);
 
         MyInput();
         SpeedControl();
@@ -132,4 +132,12 @@ public class PlayerMovement : MonoBehaviour
     {
         readyToJump = true;
     }
+    public Transform respawnPoint;
+
+    public void Respawn()
+    {
+        rb.linearVelocity = Vector3.zero;
+        transform.position = respawnPoint.position;
+    }
+    
 }
