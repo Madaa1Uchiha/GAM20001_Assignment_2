@@ -27,7 +27,7 @@ public class GameSettings : MonoBehaviour
 
     void Start()
     {
-        IsFullscreen = false;
+        IsFullscreen = true;
         AllResolutions = Screen.resolutions;
 
         List<string> resolutionStringList = new List<string>();
