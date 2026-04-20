@@ -2246,6 +2246,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 78.660645
       objectReference: {fileID: 0}
+    - target: {fileID: 812779048924847552, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 812779048924847552, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 812779048924847552, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 818884379686106984, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
       propertyPath: m_SizeDelta.y
       value: 87.5596
@@ -2285,6 +2297,10 @@ PrefabInstance:
     - target: {fileID: 2724906321554727838, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
       propertyPath: m_Name
       value: InGameMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724906321554727838, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2998885234627898916, guid: c7d7303fedd84b44289aa9b98a75a0b4, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2733,7 +2749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameSettings
   ResDropDown: {fileID: 206867471}
-  FullScreenToggle: {fileID: 0}
+  FullScreenToggle: {fileID: 545381013}
 --- !u!1001 &1771592086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3249,7 +3265,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bf202ffbbd1732428c4c79d6f61fa61, type: 2}
+  - {fileID: 2100000, guid: 29b6bc10fb1a15c41985b3f9f2f38353, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
